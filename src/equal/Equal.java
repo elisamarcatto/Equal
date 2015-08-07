@@ -26,7 +26,7 @@ public class Equal
         
         PrintWriter writer = new PrintWriter("test.txt", "UTF-8");
         writer.write("The first lineeeee");
-        writer.write("The second line");
+        writer.write("The second lineeeee");
         writer.close();
 
     }
