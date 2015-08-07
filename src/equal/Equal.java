@@ -25,7 +25,7 @@ public class Equal
         File actualFile = new File (dir, fileName);
         
         PrintWriter writer = new PrintWriter("test.txt", "UTF-8");
-        writer.write("The first lineeeee");
+        writer.write("The first lineeeeeEEEEEE");
         writer.write("The second lineeeee");
         writer.close();
 
